@@ -4,12 +4,12 @@ import firestore from 'firebase/firestore';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyC6LWY_UrpKHNxWQNT2-br-NlMjfcse8V8",
+    apiKey: "",
     authDomain: "udemy-ninja-chat-5e82a.firebaseapp.com",
     databaseURL: "https://udemy-ninja-chat-5e82a.firebaseio.com",
     projectId: "udemy-ninja-chat-5e82a",
     storageBucket: "udemy-ninja-chat-5e82a.appspot.com",
-    messagingSenderId: "514546482339"
+    messagingSenderId: ""
 };
 const firebaseApp = firebase.initializeApp(config);
 firebaseApp.firestore().settings({timestampsInSnapshots: true});
